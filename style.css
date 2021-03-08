@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 4px solid #4977ff;
+  width: 400px;
+  font-size: 16px;
+  font-family: Lato;
+}
+
+.heading-row,
+.content-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading-row {
+  background-color: #e7e4e4;
+  border-bottom: 2px solid #d5d0d0;
+}
+
+.content-row {
+  border-bottom: 1px solid #d5d0d0;
+  padding-left: 1px;
+  margin-left: 10px;
+  padding: 10px 10px 10px 0;
+  font-weight: 600;
+}
+
+.heading-row .heading-col-2 {
+  width: 50%;
+  background-color: #c7c7c7;
+  padding: 5px 10px;
+}
+
+.heading-row .heading-col-2 div,
+.content-row .content-col-2 div {
+  justify-content: right;
+  text-align: end;
+}
+
+.heading-row .heading-col-1 {
+  align-self: flex-end;
+  padding-left: 10px;
+}
+
+.heading-row .heading-col-2 div:first-child::first-letter {
+  color: #4977ff;
+  font-weight: 600;
+}
+
+.heading-row .heading-col-2 div:last-child {
+  color: grey;
+}
+.content-row .content-col-1 {
+  align-self: center;
+  font-size: 120%;
+  color: #4977ff;
+}
+
+.cost {
+  font-size: 120%;
+  padding: 3px 0;
+}
+.inc-percent {
+  font-size: 90%;
+  color: green;
+}
+.dec-percent {
+  font-size: 90%;
+  color: red;
+}
+
+.loadMore {
+  margin: 18px;
+  text-align: center;
+  font-size: 120%;
+  font-weight: 600;
+  color: #4977ff;
+}
