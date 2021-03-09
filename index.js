@@ -8,7 +8,7 @@ appDiv1.innerHTML = `<div class="container">
       <div class="heading-row">
         <div class="heading-col-1">Account</div>
         <div class="heading-col-2">
-          <div>^ Available Cash</div>
+          <div>^  Available Cash</div>
           <div>Today's Change</div>
         </div>
       </div>
@@ -33,8 +33,8 @@ appDiv1.innerHTML = `<div class="container">
         <div class="content-row">
           <span class="content-col-1">IRA - 5200</span>
           <span class="content-col-2">
-                        <div class="cost">$5,763.36</div>
-                        <div class="inc-percent">-0.08% / $8,916.69</div>
+                        <div class="cost">$10,050,054.07</div>
+                        <div class="inc-percent">+0.07% / $8,916.69</div>
                     </span>
         </div>
 
