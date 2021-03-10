@@ -31,7 +31,7 @@ appDiv1.innerHTML = `<div class="container">
                     </span>
         </div>
         <div class="content-row">
-          <span class="content-col-1">IRA - 5200</span>
+          <span class="content-col-1">AAA - 3810</span>
           <span class="content-col-2">
                         <div class="cost">$10,050,054.07</div>
                         <div class="inc-percent">+0.07% / $8,916.69</div>
